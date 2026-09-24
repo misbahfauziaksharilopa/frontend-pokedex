@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/forms";
+@plugin "tailwind-scrollbar-hide";
+@plugin "tailwind-scrollbar";
+
+@theme {
+  --color-base: #1E1E24;
+  --color-surface: #2A2A32;
+}
+
+body {
+  background-color: var(--color-base);
+}
